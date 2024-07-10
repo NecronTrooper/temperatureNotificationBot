@@ -1,16 +1,10 @@
 import dht
-import urequests as requests
 from machine import I2C
-from time import sleep_us
 from lcd_api import LcdApi
 from pico_i2c_lcd import I2cLcd
 import utime
-import time
 from machine import Pin
-from machine import UART
-import ujson
 
- 
   
 I2C_ADDR     = 0x27
 I2C_NUM_ROWS = 4
