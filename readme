@@ -1,0 +1,9 @@
+This is micropython project.
+
+Main purpose to checking room from getting too hot, if it's gets hot send message throught telegram bot to user
+
+Used hardware:
+    -Raspberry Pi Pico
+    -dht11
+    -LCD 4x20 (connected by I2C)
+
